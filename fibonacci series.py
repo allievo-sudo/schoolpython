@@ -1,5 +1,11 @@
 # Fibonacci series
-# 0,1,1,2,3,5,8,13,21,24
+# A program to calculate the Fibonacci sequence up to how many terms 
+#the user inputs 
+
+#fibonacci sequence is of the order  0,1,1,2,3,5,8,13,21,24
+
+#Asks the user how many fibonacci sequence  they will like generate 
+n  = int(input("Enter a number of sequence you would like too see : "))
 
 def fib(n):
     a = 0
@@ -15,5 +21,5 @@ def fib(n):
             a = b
             b = c
             print(b,end = " ")
-print(fib( ))
+print(fib(n))
     
